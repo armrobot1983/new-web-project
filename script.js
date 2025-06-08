@@ -686,7 +686,7 @@ function playGojoBlessing() {
     
     // 创建五条悟音频对象
     if (!gojoAudio) {
-        gojoAudio = new Audio('视频/五条悟祝福语.mp4');
+        gojoAudio = new Audio('五条悟祝福语.mp4');
         gojoAudio.volume = 0.9; // 设置音频音量为90%
         
         gojoAudio.addEventListener('ended', function() {
